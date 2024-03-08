@@ -9,6 +9,8 @@ año = 2024 #es un numero
 #suma de string = concatenar
 
 print(nombre+apellido1+apellido2)
+
+print("vvv     Informacion   vvv")
 print("vvv     "+nombre+"     vvv")
 print("vvv    "+apellido1+"   vvv")
 print("vvv    "+apellido2+"    vvv")
