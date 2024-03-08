@@ -69,14 +69,18 @@ print(type(mes)) #<class 'int'>
 print(type(peso)) #<class 'float'>
 print(type(verdadero)) #<class 'bool'>
 
+
 type(verdadero) #no imprime el tipo de dato
+
 
 numero = 2
 numero = numero + 3 #numero = 2 + 3
 print(numero)#5
 
+
 nombre = nombre + "Aguilera" #nombre = "Juan"+"Aguilera"
 print(nombre)#JuanAguilera
+
 
 #precision de datos
 print(5/9)#0.5555555556
@@ -87,6 +91,7 @@ print("el resultado e la division",round(5/9,3))
 nombre = input("igrese su nombre")
 print("Tu nombre es",nombre)
 print(f"Tu nombre es {nombre}")
+
 
 edad = input("Ingrese su edad:  ")
 print("Tu tienes",edad,"años")
