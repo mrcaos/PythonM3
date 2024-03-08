@@ -24,3 +24,56 @@ print("Hola {}, El año es {} del mes {} y el dia {}".format(nombre,año,mes,dia
 
 #interpolaciion con % (%s para string y %d para numeros)
 print("Hola %s, El año es %s del mes %d y el dia %d" %(nombre, año, mes,dia))
+
+#Metodo count ---> busca y cuenta cuantas veces se encuentra un caracter en un string
+print("Santana".count("a"))
+print(nombre.count("i"))
+
+#Metodo upper --> todo el string en mayuscula y lower ---> todo el string a minuscula
+print("Santana".upper())#SANTANA
+print("Santana".lower())#santana
+print(nombre.upper())#JUAN
+print(nombre.lower())#juan
+
+#Metodo title -----> solo la primera letra a mayuscula
+print("12314santana".title())#12314santana
+
+#len ----> cuenta los cracteres del string incluso los espacios
+print(len(" juan Aguilera 2024"))#18
+
+#Join ---> unir elementos sparados en un string
+print(", ".join(["a","b","c"]))
+print(" ".join(["Juan","Aguilera","Duhalde"]))
+
+print("escribir\nlo\nque\nse\nme\nocurra")
+"""
+    escribir
+    lo
+    que
+    se
+    me
+    ocurra
+"""
+
+mi_direccion =""
+miDireccion =""
+# cant_alum ??? ----> cantidad_alumnos--> mientras mas claro mejor
+cantidas_alumnos = 30
+peso = 85.5
+verdadero = True
+
+#Tipo de datos, type(nombre_variable)
+print(type(nombre)) #<class 'str'>
+print(type(año)) #<class 'str'>
+print(type(mes)) #<class 'int'>
+print(type(peso)) #<class 'float'>
+print(type(verdadero)) #<class 'bool'>
+
+type(verdadero) #no imprime el tipo de dato
+
+numero = 2
+numero = numero + 3 #numero = 2 + 3
+print(numero)#5
+
+nombre = nombre + "Aguilera" #nombre = "Juan"+"Aguilera"
+print(nombre)#JuanAguilera
