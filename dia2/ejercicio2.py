@@ -77,3 +77,19 @@ print(numero)#5
 
 nombre = nombre + "Aguilera" #nombre = "Juan"+"Aguilera"
 print(nombre)#JuanAguilera
+
+#precision de datos
+print(5/9)#0.5555555556
+print(f"resultado de la division {5/9:.2f}")
+print("el resultado e la division",round(5/9,3))
+
+
+nombre = input("igrese su nombre")
+print("Tu nombre es",nombre)
+print(f"Tu nombre es {nombre}")
+
+edad = input("Ingrese su edad:  ")
+print("Tu tienes",edad,"años")
+print(type(edad)) #<class 'str'>
+
+
