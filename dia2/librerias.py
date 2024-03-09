@@ -13,4 +13,8 @@ print(5 % 2) # Módulo. Ej: 5 Módulo 2 es 1. 1 es el resto de 5 // 2.
 print(os.getcwd()) #
 print(math.sqrt(9))#
 #print(ceil(3.1416)) #importacion especifica de una libreria 
-print(math.ceil(3.1416))
+print(math.ceil(3.1416)) # ceil aproxima al entero superior
+
+#pip -V --> para saber la version
+#pip3 -V --> para mac
+#python3 -m pip install --upgrade pip ---> actualiza pip
