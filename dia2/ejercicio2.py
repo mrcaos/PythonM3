@@ -97,4 +97,4 @@ edad = input("Ingrese su edad:  ")
 print("Tu tienes",edad,"años")
 print(type(edad)) #<class 'str'>
 
-
+#probando
