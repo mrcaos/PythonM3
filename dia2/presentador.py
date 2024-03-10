@@ -19,4 +19,3 @@ Mi nombre es {nombre}, tengo {edad} años y me desempeño como {ocupacion} en {l
 Soy una persona {caracteristica_1}, {caracteristica_2} y {caracteristica_3}.
 
 Mi pasatiempo es {pasatiempo} y me gustaría poder {hacer}.''')
-
