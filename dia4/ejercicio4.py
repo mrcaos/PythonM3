@@ -5,8 +5,8 @@ solo numeros enteros 1 al 100
 y determina cual es mayor y cual es menor
 """
 #Verificar que los numeros estan dentro del rango
-
-si (numero1 < 1 o numero1 > 100 o numero2 < 1 o numero2 > o 100 numero3 < 1 o numero3 > 100 )
+"""
+si (numero1, < 1 o numero1 > 100 o numero2 < 1 o numero2 > o 100 numero3 < 1 o numero3 > 100 )
     escribir ("Ingresar numeros enteros entre 1 y 100")
     sino
     
@@ -32,7 +32,7 @@ si (numero1 < 1 o numero1 > 100 o numero2 < 1 o numero2 > o 100 numero3 < 1 o nu
     escribir("el numero mayor es:", mayor)
     escribir("el numero menor es:", menor)
 
-
+"""
 
 """
 hacer el calculo de tres promedios 
@@ -40,10 +40,10 @@ hacer el calculo de tres promedios
 """
 
 Inicio
-    Nota1
-    Nota2
-    Nota3
+Nota1
+Nota2
+Nota3
 Calculo    
-    Promedio = (nota1 + nota2 + nota3) / 3 
+Promedio = (nota1 + nota2 + nota3) / 3 
 Mostrar promedio con dos decimales
 Fin
