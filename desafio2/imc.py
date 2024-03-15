@@ -19,11 +19,11 @@ if indiceMasaCorporal<18.5:
     print("La clasificacion OMS es Bajo Peso")
 elif 18.5<=indiceMasaCorporal and indiceMasaCorporal<25:
     print("La clasificacion OMS es Adecuado")
-elif 25<=indiceMasaCorporal and indiceMasaCorporal<30:
+elif 25>=indiceMasaCorporal and indiceMasaCorporal<30:
     print("La clasificacion OMS es Sobrepeso")
-elif 30<=indiceMasaCorporal and indiceMasaCorporal<35:
+elif 30>=indiceMasaCorporal and indiceMasaCorporal<35:
     print("La clasificacion OMS es Obesidad Grado I")
-elif 35<=indiceMasaCorporal and indiceMasaCorporal<40:
+elif 35>=indiceMasaCorporal and indiceMasaCorporal<40:
     print("La clasificacion OMS es Obesidad Grado II")
-elif 40>=indiceMasaCorporal and indiceMasaCorporal>40:
+elif 40>=indiceMasaCorporal:
     print("La clasificacion OMS es Obesidad Grado III")
