@@ -3,18 +3,22 @@ import random,sys
 buscar = int(sys.argv[1])
 print(buscar,type(buscar))
 
-#Random.Shuffle ==> Desordena la lista
-listaNumeros = [1,2,3,4,5,6,7,8,9,0]
-random.shuffle(listaNumeros)
+#RANDOM.SHUFFLE => DESORDENAR LA LISTA
+lista_numeros = [1,2,3,4,5,6,7,8,9,0]
+random.shuffle(lista_numeros)
 
-print(listaNumeros)
-
-for numero in listaNumeros:
+print(lista_numeros)
+""" 
+posicion = 0
+for numero in lista_numeros:
     if buscar == numero:
-        print("Numero encontrado")
-        break
-    
-    for position, elemento in enumerate(listaNumeros):
+        print("Numero encontrado!!")
+        print(f"la posicion es {posicion}")
+        break #salir de for
+    posicion+=1    #incrementar en 1
+"""
+
+for position, elemento in enumerate(lista_numeros):
 # Si el elemento es igual a lo que buscamos terminamos el ciclo
     if elemento == buscar:
         print("¡Elemento encontrado! Se terminará del ciclo")
@@ -25,4 +29,4 @@ for numero in listaNumeros:
 
 print("Ha terminado el ciclo")
 print(f'El elemento {buscar} se encontró en la posición {position}')
-print(f'La lista mezclada es: {listaNumeros}')    
+print(f'La lista mezclada es: {lista_numeros}')

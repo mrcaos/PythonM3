@@ -92,8 +92,25 @@ print("")
 for clave, valor in diccionario.items():
     print(f"clave {clave} - valor {valor}")
     
+print("")
+for numero1 in range(11):
+    print(f'\nTabla del {numero1}:------------------------------\n')
+    for numero2 in range(1,11):
+        print(f"{numero1} * {numero2} = {numero1*numero2}")
+
+#for (let index = 0; index < 10; index++) {
+#    console.log(index)
+#}
+
+for index in range(0,10,1):
+    print(index)    
     
-print("-----------------------")   
+    
+    
+    
+    
+"""print("-----------------------")   
 paises = ['Mexico','Chile','Argentina']
 cantidad_usuarios = [70,50,55]
 print({p:c for p,c in zip(paises, cantidad_usuarios)})  
+"""
