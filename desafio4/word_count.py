@@ -1,6 +1,6 @@
 #Importando el texto:
 print("")
-with open("C:\python\desafio4\lorem_ipsum.txt", "r") as file:
+with open("C:\python\M3\Python\desafio4\lorem_ipsum.txt", "r") as file:
     texto=file.read()
 print(texto)
 #separando texto en caracteras
@@ -37,4 +37,5 @@ print(set_palabras)
 print("")
 cantidad_palabras = len(set_palabras)
 print(cantidad_palabras)
+print(f"El número de caracteres distintos es: {cantidad_caracteres}")
 print(f"El número de palabras distintas es: {cantidad_palabras}")

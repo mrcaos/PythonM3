@@ -1,23 +1,19 @@
-import sys
+# Librerias
+from sys import argv
 
-tasa_conversion_soles = float(sys.argv[1])
-tasa_conversion_peso_argentino = float(sys.argv[2])
-tasa_conversion_dolar_americano = float(sys.argv[3])
-monto_peso_chileno = int(sys.argv[4])
+# Variables
+PEN = float(argv[1])
+ARS = float(argv[2])
+USD = float(argv[3])
+CLP = int(argv[4])
+DIV = {}
 
-#Valores de prueba tasas_conversion
-tasa_conversion_soles = 0.0046
-tasa_conversion_peso_argentino = 0.093
-tasa_conversion_dolar_americano = 0.0013 #en los valores entregados hay un error en esta tasa. sobre 1 0
-monto_peso_chileno = 10000
+# Calculos
+DIV["Soles"] = CLP*PEN
+DIV["Pesos Argentinos"] = CLP*ARS
+DIV["Dólares"] = CLP*USD
 
-# monto_peso_chileno = sys.argv[4]
-print(f"Los {monto_peso_chileno} pesos chilenos equivalen a:")
-
-monto_soles = monto_peso_chileno * tasa_conversion_soles
-monto_peso_argentino = monto_peso_chileno * tasa_conversion_peso_argentino
-monto_dolar_americano = monto_peso_chileno * tasa_conversion_dolar_americano
-
-print(f"{monto_soles} Soles")
-print(f"{monto_peso_argentino} Pesos Argentinos")
-print(f"{monto_dolar_americano} Dólares")
+# Resultados
+print(f"Los {argv[4]} pesos equivalen a:")
+for k,v in DIV.items() :
+    print(f"{v} {k}")
