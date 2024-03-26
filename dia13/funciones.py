@@ -1,4 +1,4 @@
-
+from os import sys
 
 
 """Funciones
@@ -91,6 +91,41 @@ def elevar(base, exponente, redondear = False):
     else:
         valor = base**exponente
     return valor
-print(elevar(2, 3))
+print(elevar(2, 3))#19.241905543136184
 
-print(elevar(2, 3, redondear = True))
+print(elevar(2, 3, redondear = True))#19.24
+
+
+
+# **KWARGS --> Se resive un diccionario 
+def parametros(**kwargs):
+    print(kwargs)
+    print(kwargs["lista1"])
+
+parametros(numero1= 23, texto ="Hola", lista1 = [2,3,4,5,6])#
+print("")
+
+# *ARGS ---> Se resive una tupla
+def argumentos(*args):
+    print(args)
+    print(args[0])#23
+    print(args[2])#[2,3,4,5,6]
+
+argumentos(23, "hola", [2,3,4,5,6])
+
+
+# VARIABLES LOCALES Y VARIABLES GLOBALES
+
+pais = "Chile" #VARIABLE GLOBAL
+
+def ciudades():
+    #SCOPE DE LA VARIABLE "CAPITAL" es solo en el metodo ciudades
+    capital = "Santiago"
+    print(pais,capital)
+    #pais = "peru" #NO SE PUEDE / RECOMIENDO MODIFICAR EL VALOR DE UNA VARIABLE GLOBAL
+    return capital #return "SANTIAGO"
+    
+print(pais)
+ciudades()
+#print(capital)#Variable no definida
+print(pais)
