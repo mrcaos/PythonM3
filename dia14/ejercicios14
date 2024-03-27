@@ -6,7 +6,7 @@ def factorial(n):
         numero (int): Numero el cual se calcula el factorial
 
     Returns:
-        _type_: _description_
+        _type_: resultado del factorial de un numero 
     """
     calculo = 1
     for i in range(1, n + 1):
@@ -14,8 +14,15 @@ def factorial(n):
     return calculo
 
 
-
 def productoria(lista):
+    """_summary_
+
+    Args:
+        lista (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     calculo = 1
     for numero in lista:
         calculo *= numero
