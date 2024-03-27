@@ -1,3 +1,5 @@
+from os import system
+
 notas = {
     "Camila": 7, 
     "Antonio": 7, 
@@ -76,10 +78,19 @@ print(dic1==dic2) #True
 print(dic1==dic3) #False
 print(dic4==dic3) #False
 
-pares_impares = {
-    "pares":{2,4,6,8,10},
-    "impar":{1,3,5,7,9},
-}
+##Diccionarios Anidados
+system("cls")#system("cls")
+
+pares_impares ={
+    "pares":{
+        2:"dos",
+        4:"cuatro",
+        6:"seis",
+        8:"ocho",
+        10:"diez",
+    },
+    "impar":{"uno":1,"tres":3,"cinco":5,"siete":7,"nueve":9},
+} 
 
 #imprimir el valor "seis"
 print(pares_impares["pares"])#{2: 'dos', 4: 'cuatro', 6: 'seis', 8: 'ocho', 10: 'diez'}

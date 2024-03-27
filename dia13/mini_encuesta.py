@@ -49,5 +49,3 @@ for pregunta in preguntas:    #singular/plural
     
 for i in range(len(respuestas)):   #[0,1,2]   len= 3
     print(f'La respuesta a la pregunta {i+1} es: {respuestas[i]}')
-    
-    

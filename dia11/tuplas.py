@@ -41,3 +41,5 @@ print(list_dicc[1][1])#7
 system("clear")
 
 print(dir(list_dicc))
+system("clear")
+print(dir(tupla_vocales))
