@@ -13,4 +13,4 @@ if response.status_code == 200:
     post = response.json()
     print(post("title"))
 else:
-    print("Error en el solicitud")
+    print("Error en el solicitud", response.text, response.sta)
