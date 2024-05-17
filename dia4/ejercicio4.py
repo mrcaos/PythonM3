@@ -45,5 +45,5 @@ Nota2
 Nota3
 Calculo    
 Promedio = (nota1 + nota2 + nota3) / 3 
-Mostrar promedio con dos decimalea
+#Mostrar promedio con dos decimalea
 Fin
